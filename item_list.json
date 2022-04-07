@@ -1,0 +1,81 @@
+{
+    "talent_books": [
+        {
+            "days": [ "Monday", "Thursday" ],
+            "items": [
+                { "Freedom": [ "Aloy", "Amber", "Barbara", "Diona", "Klee", "Sucrose", "Tartaglia", "Anemo Traveler" ] },
+                { "Prosperity": [ "Keqing", "Ningguang", "Qiqi", "Shenhe", "Geo Traveler", "Xiao" ] },
+                { "Transience": [ "Sangonomiya Kokomi", "Thoma", "Electro Traveler", "Yoimiya" ] }
+            ]
+        },
+        {
+            "days": [ "Tuesday", "Friday" ],
+            "items": [
+                { "Resistance": [ "Bennett", "Diluc", "Eula", "Jean", "Mona", "Noelle", "Razor" ] },
+                { "Diligence": [ "Chongyun", "Ganyu", "Xiao", "Kaedehara Kazuha", "Xiangling", "Yun Jin" ] },
+                { "Elegance": [ "Arataki Itto", "Kamisato Ayaka", "Kamisato Ayato", "Kujou Sara" ] }
+            ]
+        },
+        {
+            "days": [ "Wednesday", "Saturday" ],
+            "items": [
+                { "Ballad": [ "Albedo", "Fischl", "Kaeya", "Lisa", "Rosaria", "Venti" ] },
+                { "Gold": [ "Beidou", "Xingqiu", "Xinyan", "Yanfei", "Zhongli" ] },
+                { "Light": [ "Gorou", "Raiden Shogun", "Sayu", "Yae Miko" ] }
+            ]
+        },
+        {
+            "days": [ "Sunday" ],
+            "items": [
+                { "Freedom": [ "Aloy", "Amber", "Barbara", "Diona", "Klee", "Sucrose", "Tartaglia", "Anemo Traveler" ] }, 
+                { "Resistance": [ "Bennett", "Diluc", "Eula", "Jean", "Mona", "Noelle", "Razor" ] },
+                { "Ballad": [ "Albedo", "Fischl", "Kaeya", "Lisa", "Rosaria", "Venti" ] },
+                { "Prosperity": [ "Keqing", "Ningguang", "Qiqi", "Shenhe", "Geo Traveler", "Xiao" ] },
+                { "Diligence": [ "Chongyun", "Ganyu", "Xiao", "Kaedehara Kazuha", "Xiangling", "Yun Jin" ] },
+                { "Gold": [ "Beidou", "Xingqiu", "Xinyan", "Yanfei", "Zhongli" ] },
+                { "Transience": [ "Sangonomiya Kokomi", "Thoma", "Electro Traveler", "Yoimiya" ] },
+                { "Elegance": [ "Arataki Itto", "Kamisato Ayaka", "Kamisato Ayato", "Kujou Sara" ] },
+                { "Light": [ "Gorou", "Raiden Shogun", "Sayu", "Yae Miko" ] }
+            ]
+        }
+    ],
+    "weapon_materials": [
+        { "days": [ "Monday", "Thursday" ],
+            "items": [
+                { "Decarabian": [ "Aquila Favonia", "Royal Longsword", "The Viridescent Hunt", "Snow-Tombed Starsilver", "The Alley Flash", "Favonius Sword", "The Stringless", "Favonius Codex", "Royal Grimoire", "The Bell", "Ferrous Shadow", "Cool Steel", "Raven Bow", "Magic Guide", "Silver Sword", "Pocket Grimoire", "Apprentices Notes", "Dull Blade", "Song Of Broken Pines", "Mitternachts Waltz", "Cinnabar Spindle" ] },
+                { "Guyun": [ "Primordial Jade Winged-Spear", "Summit Shaper", "Lions Roar", "Blackcliff Longsword", "Crescent Pike", "Blackcliff Warbow", "Lithic Blade", "Whiteblind", "Rust", "Blackcliff Agate", "Solar Pearl", "Dark Iron Sword", "Slingshot", "White Tassel", "Emerald Orb" ] },
+                { "Distant Sea": [ "Mistsplitter Reforged", "Amenoma Kageuchi", "Hakushin Ring", "Everlasting Moonglow", "Akuoumaru", "Oathsworn Eye" ] }
+            ]
+        },
+        {
+            "days": [ "Tuesday", "Friday" ],
+            "items": [
+                { "Boreal Wolf": [ "Skyward Harp", "Skyward Pride", "Skyward Blade", "Skyward Atlas", "The Flute", "The Black Sword", "Sacrificial Greatsword", "Sword Of Descension", "Deathmatch", "Wine And Song", "The Widsith", "Sacrificial Bow", "Dragonspine Spear", "Sharpshooters Oath", "Harbinger Of Dawn", "Bloodtainted Greatsword", "Thrilling Tales Of Dragon Slayers", "Seasoned Hunters Bow", "Old Mercs Pal", "Waster Greatsword", "Hunters Bow", "Elegy For The End", "Dodoco Tales" ] },
+                { "Mist Veiled Elixir": [ "The Unforged", "Eye Of Perception", "Prototype Rancour", "Prototype Crescent", "Dragons Bane", "Blackcliff Pole", "Royal Spear", "Blackcliff Slasher", "Prototype Amber", "Rainslasher", "Debate Club", "Halberd", "Messenger", "Twin Nephrite", "Fillet Blade", "Primordial Jade Cutter", "Calamity Queller" ] },
+                { "Narukami": [ "Thundering Pulse", "Hamayumi", "Katsuragikiri Nagamasa", "Predator", "Mouuns Moon", "Redhorn Stonethresher", "Haran Geppaku Futsu" ] }
+            ]
+        },
+        {
+            "days": [ "Wednesday", "Saturday" ],
+            "items": [
+                { "Dandelion Gladiator": [ "Wolfs Gravestone", "Lost Prayer To The Sacred Winds", "Skyward Spine", "Amos Bow", "Sacrificial Sword", "Favonius Lance", "Festering Desire", "Frostbearer", "Alley Hunter", "Favonius Warbow", "Royal Bow", "Sacrificial Fragments", "Favonius Greatsword", "Royal Greatsword", "Otherworldly Story", "Recurve Bow", "White Iron Greatsword", "Travelers Handy Sword", "Iron Point", "Beginners Protector", "Windblume Ode", "Freedom-Sworn" ] },
+                { "Aerosiderite": [ "Memory Of Dust", "Vortex Vanquisher", "Iron Sting", "Serpent Spine", "Lithic Spear", "Prototype Starglitter", "Compound Bow", "Mappa Mare", "Prototype Archaic", "Black Tassel", "Skyrider Greatsword", "Skyrider Sword", "Staff Of Homa", "Luxurious Sea-Lord" ] },
+                { "Mask": [ "Kitain Cross Spear", "Engulfing Lightning", "The Catch", "Polar Star", "Wavebreakers Fin", "Kaguras Verity" ] }
+            ]
+        },
+        {
+            "days": [ "Sunday" ],
+            "items": [
+                { "Decarabian": [ "Aquila Favonia", "Royal Longsword", "The Viridescent Hunt", "Snow-Tombed Starsilver", "The Alley Flash", "Favonius Sword", "The Stringless", "Favonius Codex", "Royal Grimoire", "The Bell", "Ferrous Shadow", "Cool Steel", "Raven Bow", "Magic Guide", "Silver Sword", "Pocket Grimoire", "Apprentices Notes", "Dull Blade", "Song Of Broken Pines", "Mitternachts Waltz", "Cinnabar Spindle" ] },
+                { "Boreal Wolf": [ "Skyward Harp", "Skyward Pride", "Skyward Blade", "Skyward Atlas", "The Flute", "The Black Sword", "Sacrificial Greatsword", "Sword Of Descension", "Deathmatch", "Wine And Song", "The Widsith", "Sacrificial Bow", "Dragonspine Spear", "Sharpshooters Oath", "Harbinger Of Dawn", "Bloodtainted Greatsword", "Thrilling Tales Of Dragon Slayers", "Seasoned Hunters Bow", "Old Mercs Pal", "Waster Greatsword", "Hunters Bow", "Elegy For The End", "Dodoco Tales" ] },
+                { "Dandelion Gladiator": [ "Wolfs Gravestone", "Lost Prayer To The Sacred Winds", "Skyward Spine", "Amos Bow", "Sacrificial Sword", "Favonius Lance", "Festering Desire", "Frostbearer", "Alley Hunter", "Favonius Warbow", "Royal Bow", "Sacrificial Fragments", "Favonius Greatsword", "Royal Greatsword", "Otherworldly Story", "Recurve Bow", "White Iron Greatsword", "Travelers Handy Sword", "Iron Point", "Beginners Protector", "Windblume Ode", "Freedom-Sworn" ] },
+                { "Guyun": [ "Primordial Jade Winged-Spear", "Summit Shaper", "Lions Roar", "Blackcliff Longsword", "Crescent Pike", "Blackcliff Warbow", "Lithic Blade", "Whiteblind", "Rust", "Blackcliff Agate", "Solar Pearl", "Dark Iron Sword", "Slingshot", "White Tassel", "Emerald Orb" ] },
+                { "Mist Veiled Elixir": [ "The Unforged", "Eye Of Perception", "Prototype Rancour", "Prototype Crescent", "Dragons Bane", "Blackcliff Pole", "Royal Spear", "Blackcliff Slasher", "Prototype Amber", "Rainslasher", "Debate Club", "Halberd", "Messenger", "Twin Nephrite", "Fillet Blade", "Primordial Jade Cutter", "Calamity Queller" ] },
+                { "Aerosiderite": [ "Memory Of Dust", "Vortex Vanquisher", "Iron Sting", "Serpent Spine", "Lithic Spear", "Prototype Starglitter", "Compound Bow", "Mappa Mare", "Prototype Archaic", "Black Tassel", "Skyrider Greatsword", "Skyrider Sword", "Staff Of Homa", "Luxurious Sea-Lord" ] },
+                { "Distant Sea": [ "Mistsplitter Reforged", "Amenoma Kageuchi", "Hakushin Ring", "Everlasting Moonglow", "Akuoumaru", "Oathsworn Eye" ] },
+                { "Narukami": [ "Thundering Pulse", "Hamayumi", "Katsuragikiri Nagamasa", "Predator", "Mouuns Moon", "Redhorn Stonethresher", "Haran Geppaku Futsu" ] },
+                { "Mask": [ "Kitain Cross Spear", "Engulfing Lightning", "The Catch", "Polar Star", "Wavebreakers Fin", "Kaguras Verity" ] }
+            ]
+        }
+    ]
+}
