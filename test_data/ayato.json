@@ -1,0 +1,909 @@
+{
+    "response": 200,
+    "data"    : {
+        "id"           : 10000066,
+        "rank"         : 5,
+        "name"         : "Kamisato Ayato",
+        "element"      : "Water",
+        "weaponType"   : "WEAPON_SWORD_ONE_HAND",
+        "icon"         : "UI_AvatarIcon_Ayato",
+        "birthday"     : [3, 26],
+        "release"      : 1648587600,
+        "route"        : "Kamisato Ayato",
+        "fetter"       : {
+            "title"        : "Pillar of Fortitude",
+            "detail"       : "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+            "constellation": "Cypressus Custos",
+            "native"       : "Yashiro Commission",
+            "cv"           : {"EN": "Chris Hackney", "CHS": "赵路", "JP": "石田彰", "KR": "Jang Min-hyeok"}
+        },
+        "upgrade"      : {
+            "prop"   : [
+                {
+                    "propType" : "FIGHT_PROP_BASE_HP",
+                    "initValue": 1067.7184,
+                    "type"     : "GROW_CURVE_HP_S5"
+                },
+                {
+                    "propType" : "FIGHT_PROP_BASE_ATTACK",
+                    "initValue": 23.275,
+                    "type"     : "GROW_CURVE_ATTACK_S5"
+                },
+                {
+                    "propType" : "FIGHT_PROP_BASE_DEFENSE",
+                    "initValue": 59.83,
+                    "type"     : "GROW_CURVE_HP_S5"
+                }
+            ],
+            "promote": [
+                {"unlockMaxLevel": 20, "promoteLevel": 0},
+                {
+                    "promoteLevel"       : 1,
+                    "costItems"          : {"101202": 3, "104121": 1, "112044": 3},
+                    "unlockMaxLevel"     : 40,
+                    "addProps"           : {
+                        "FIGHT_PROP_BASE_HP"      : 915.472,
+                        "FIGHT_PROP_BASE_DEFENSE" : 51.3,
+                        "FIGHT_PROP_BASE_ATTACK"  : 19.95475,
+                        "FIGHT_PROP_CRITICAL_HURT": 0
+                    },
+                    "requiredPlayerLevel": 15,
+                    "coinCost"           : 20000
+                },
+                {
+                    "promoteLevel"       : 2,
+                    "costItems"          : {"101202": 10, "104122": 3, "112044": 15, "113028": 2},
+                    "unlockMaxLevel"     : 50,
+                    "addProps"           : {
+                        "FIGHT_PROP_BASE_HP"      : 1565.939,
+                        "FIGHT_PROP_BASE_DEFENSE" : 87.75,
+                        "FIGHT_PROP_BASE_ATTACK"  : 34.133125,
+                        "FIGHT_PROP_CRITICAL_HURT": 0.096
+                    },
+                    "requiredPlayerLevel": 25,
+                    "coinCost"           : 40000
+                },
+                {
+                    "promoteLevel"       : 3,
+                    "costItems"          : {"101202": 20, "104122": 6, "112045": 12, "113028": 4},
+                    "unlockMaxLevel"     : 60,
+                    "addProps"           : {
+                        "FIGHT_PROP_BASE_HP"      : 2433.2283,
+                        "FIGHT_PROP_BASE_DEFENSE" : 136.35,
+                        "FIGHT_PROP_BASE_ATTACK"  : 53.037624,
+                        "FIGHT_PROP_CRITICAL_HURT": 0.192
+                    },
+                    "requiredPlayerLevel": 30,
+                    "coinCost"           : 60000
+                },
+                {
+                    "promoteLevel"       : 4,
+                    "costItems"          : {"101202": 30, "104123": 3, "112045": 18, "113028": 8},
+                    "unlockMaxLevel"     : 70,
+                    "addProps"           : {
+                        "FIGHT_PROP_BASE_HP"      : 3083.695,
+                        "FIGHT_PROP_BASE_DEFENSE" : 172.8,
+                        "FIGHT_PROP_BASE_ATTACK"  : 67.216,
+                        "FIGHT_PROP_CRITICAL_HURT": 0.192
+                    },
+                    "requiredPlayerLevel": 35,
+                    "coinCost"           : 80000
+                },
+                {
+                    "promoteLevel"       : 5,
+                    "costItems"          : {"101202": 45, "104123": 6, "112046": 12, "113028": 12},
+                    "unlockMaxLevel"     : 80,
+                    "addProps"           : {
+                        "FIGHT_PROP_BASE_HP"      : 3734.162,
+                        "FIGHT_PROP_BASE_DEFENSE" : 209.25,
+                        "FIGHT_PROP_BASE_ATTACK"  : 81.39438,
+                        "FIGHT_PROP_CRITICAL_HURT": 0.288
+                    },
+                    "requiredPlayerLevel": 40,
+                    "coinCost"           : 100000
+                },
+                {
+                    "promoteLevel"       : 6,
+                    "costItems"          : {"101202": 60, "104124": 6, "112046": 24, "113028": 20},
+                    "unlockMaxLevel"     : 90,
+                    "addProps"           : {
+                        "FIGHT_PROP_BASE_HP"      : 4384.629,
+                        "FIGHT_PROP_BASE_DEFENSE" : 245.7,
+                        "FIGHT_PROP_BASE_ATTACK"  : 95.57275,
+                        "FIGHT_PROP_CRITICAL_HURT": 0.384
+                    },
+                    "requiredPlayerLevel": 50,
+                    "coinCost"           : 120000
+                }
+            ]
+        },
+        "other"        : {
+            "nameCard"   : {
+                "id"         : 210114,
+                "name"       : "Kamisato Ayato: Ripple",
+                "description": "Namecard style.\\nThe camellia alights upon the mirrored pond, sending ripples throughout the water.",
+                "icon"       : "UI_NameCardIcon_Ayato"
+            },
+            "specialFood": {
+                "id"        : 108387,
+                "name"      : "Quiet Elegance",
+                "rank"      : 3,
+                "effectIcon": "UI_Buff_Item_Def_Add",
+                "icon"      : "UI_ItemIcon_108387"
+            }
+        },
+        "ascension"    : {
+            "101202": 1,
+            "104121": 2,
+            "104122": 3,
+            "104123": 4,
+            "104124": 5,
+            "104319": 5,
+            "104323": 2,
+            "104324": 3,
+            "104325": 4,
+            "112044": 1,
+            "112045": 2,
+            "112046": 3,
+            "113028": 4,
+            "113032": 5
+        },
+        "talent"       : {
+            "0": {
+                "type"       : 0,
+                "name"       : "Normal Attack: Kamisato Art - Marobashi",
+                "description": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to dash forward and perform an iai.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "icon"       : "Skill_A_01",
+                "promote"    : {
+                    "1" : {
+                        "level"      : 1,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.449617,  0.471572,  0.586124,  0.294485,  0.756043,  1.295297, 20.000000,  0.639324, 
+                             1.278377,  1.596762,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "2" : {
+                        "level"      : 2,
+                        "costItems"  : {"104323": 3, "112044": 6},
+                        "coinCost"   : 12500,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.486213,  0.509956,  0.633832,  0.318455,  0.817582,  1.400728, 20.000000,  0.691362, 
+                             1.382431,  1.726731,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "3" : {
+                        "level"      : 3,
+                        "costItems"  : {"104324": 2, "112045": 3},
+                        "coinCost"   : 17500,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.522810,  0.548340,  0.681540,  0.342425,  0.879120,  1.506159, 20.000000,  0.743400, 
+                             1.486485,  1.856700,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "4" : {
+                        "level"      : 4,
+                        "costItems"  : {"104324": 4, "112045": 4},
+                        "coinCost"   : 25000,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.575091,  0.603174,  0.749694,  0.376667,  0.967032,  1.656775, 20.000000,  0.817740, 
+                             1.635134,  2.042370,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "5" : {
+                        "level"      : 5,
+                        "costItems"  : {"104324": 6, "112045": 6},
+                        "coinCost"   : 30000,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.611688,  0.641558,  0.797402,  0.400637,  1.028570,  1.762206, 20.000000,  0.869778, 
+                             1.739187,  2.172339,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "6" : {
+                        "level"      : 6,
+                        "costItems"  : {"104324": 9, "112045": 9},
+                        "coinCost"   : 37500,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.653512,  0.685425,  0.851925,  0.428031,  1.098900,  1.882699, 20.000000,  0.929250, 
+                             1.858106,  2.320875,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "7" : {
+                        "level"      : 7,
+                        "costItems"  : {"104325": 4, "112046": 4, "113032": 1},
+                        "coinCost"   : 120000,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.711022,  0.745742,  0.926894,  0.465698,  1.195603,  2.048376, 20.000000,  1.011024, 
+                             2.021620,  2.525112,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "8" : {
+                        "level"      : 8,
+                        "costItems"  : {"104325": 6, "112046": 6, "113032": 1},
+                        "coinCost"   : 260000,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.768531,  0.806060,  1.001864,  0.503365,  1.292306,  2.214054, 20.000000,  1.092798, 
+                             2.185133,  2.729349,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "9" : {
+                        "level"      : 9,
+                        "costItems"  : {"104325": 12, "112046": 9, "113032": 2},
+                        "coinCost"   : 450000,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.826040,  0.866377,  1.076833,  0.541031,  1.389010,  2.379731, 20.000000,  1.174572, 
+                             2.348646,  2.933586,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "10": {
+                        "level"      : 10,
+                        "costItems"  : {"104319": 1, "104325": 16, "112046": 12, "113032": 2},
+                        "coinCost"   : 700000,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.888777,  0.932178,  1.158618,  0.582122,  1.494504,  2.560470, 20.000000,  1.263780, 
+                             2.527025,  3.156390,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "11": {
+                        "level"      : 11,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.951514,  0.997979,  1.240403,  0.623213,  1.599998,  2.741209, 20.000000,  1.352988, 
+                             2.705403,  3.379194,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "12": {
+                        "level"      : 12,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.014251,  1.063780,  1.322188,  0.664304,  1.705493,  2.921948, 20.000000,  1.442196, 
+                             2.883781,  3.601998,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "13": {
+                        "level"      : 13,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.076989,  1.129580,  1.403972,  0.705395,  1.810987,  3.102688, 20.000000,  1.531404, 
+                             3.062159,  3.824802,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "14": {
+                        "level"      : 14,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.139726,  1.195381,  1.485757,  0.746487,  1.916482,  3.283427, 20.000000,  1.620612, 
+                             3.240537,  4.047606,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "15": {
+                        "level"      : 15,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", 
+                            "4-Hit DMG|{param4:F1P}×2", "5-Hit DMG|{param5:F1P}", 
+                            "Charged Attack DMG|{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", 
+                            "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}", "", 
+                            "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.202463,  1.261182,  1.567542,  0.787577,  2.021976,  3.464166, 20.000000,  1.709820, 
+                             3.418915,  4.270410,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    }
+                },
+                "cooldown"   : 0,
+                "cost"       : 0
+            },
+            "1": {
+                "type"       : 0,
+                "name"       : "Kamisato Art: Kyouka",
+                "description": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.\\nAfter this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Takimeguri Kanka</color>\\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into <color=#80C0FFFF>AoE Hydro DMG</color>. This cannot be overridden.\\nIt also has the following properties:\\n·After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.\\n·Kamisato Ayato's resistance to interruption is increased.\\n·Unable to use Charged or Plunging Attacks.\\n\\nTakimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.\\n\\n<i>\"When, I wonder, did you come under the illusion that you were winning?\"</i>\\n<i>— Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>",
+                "icon"       : "Skill_S_Ayato_01",
+                "promote"    : {
+                    "1" : {
+                        "level"      : 1,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.528900,  0.589100,  0.649300,  6.000000,  0.005611,  1.014800,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "2" : {
+                        "level"      : 2,
+                        "costItems"  : {"104323": 3, "112044": 6},
+                        "coinCost"   : 12500,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.571950,  0.637050,  0.702150,  6.000000,  0.006067,  1.097400,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "3" : {
+                        "level"      : 3,
+                        "costItems"  : {"104324": 2, "112045": 3},
+                        "coinCost"   : 17500,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.615000,  0.685000,  0.755000,  6.000000,  0.006524,  1.180000,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "4" : {
+                        "level"      : 4,
+                        "costItems"  : {"104324": 4, "112045": 4},
+                        "coinCost"   : 25000,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.676500,  0.753500,  0.830500,  6.000000,  0.007176,  1.298000,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "5" : {
+                        "level"      : 5,
+                        "costItems"  : {"104324": 6, "112045": 6},
+                        "coinCost"   : 30000,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.719550,  0.801450,  0.883350,  6.000000,  0.007633,  1.380600,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "6" : {
+                        "level"      : 6,
+                        "costItems"  : {"104324": 9, "112045": 9},
+                        "coinCost"   : 37500,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.768750,  0.856250,  0.943750,  6.000000,  0.008155,  1.475000,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "7" : {
+                        "level"      : 7,
+                        "costItems"  : {"104325": 4, "112046": 4, "113032": 1},
+                        "coinCost"   : 120000,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.836400,  0.931600,  1.026800,  6.000000,  0.008873,  1.604800,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "8" : {
+                        "level"      : 8,
+                        "costItems"  : {"104325": 6, "112046": 6, "113032": 1},
+                        "coinCost"   : 260000,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.90405,  1.00695,  1.10985,  6.00000,  0.00959,  1.73460,  6.00000, 12.00000, 
+                             0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000, 
+                             0.00000,  0.00000,  0.00000,  0.00000
+                        ]
+                    },
+                    "9" : {
+                        "level"      : 9,
+                        "costItems"  : {"104325": 12, "112046": 9, "113032": 2},
+                        "coinCost"   : 450000,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             0.971700,  1.082300,  1.192900,  6.000000,  0.010308,  1.864400,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "10": {
+                        "level"      : 10,
+                        "costItems"  : {"104319": 1, "104325": 16, "112046": 12, "113032": 2},
+                        "coinCost"   : 700000,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.045500,  1.164500,  1.283500,  6.000000,  0.011091,  2.006000,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "11": {
+                        "level"      : 11,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.119300,  1.246700,  1.374100,  6.000000,  0.011874,  2.147600,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "12": {
+                        "level"      : 12,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.193100,  1.328900,  1.464700,  6.000000,  0.012657,  2.289200,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "13": {
+                        "level"      : 13,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.266900,  1.411100,  1.555300,  6.000000,  0.013439,  2.430800,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "14": {
+                        "level"      : 14,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.340700,  1.493300,  1.645900,  6.000000,  0.014222,  2.572400,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    },
+                    "15": {
+                        "level"      : 15,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Shunsuiken 1-Hit DMG|{param1:F1P}", "Shunsuiken 2-Hit DMG|{param2:F1P}", 
+                            "Shunsuiken 3-Hit DMG|{param3:F1P}", "Takimeguri Kanka Duration|{param4:F1}s", 
+                            "Namisen DMG Bonus|{param5:F2P}Max HP/Stack", 
+                            "Water Illusion DMG|{param6:F1P}", "Water Illusion Duration|{param7:I}s", 
+                            "CD|{param8:F1}s", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [
+                             1.414500,  1.575500,  1.736500,  6.000000,  0.015005,  2.714000,  6.000000, 12.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000,  0.000000, 
+                             0.000000,  0.000000,  0.000000,  0.000000
+                        ]
+                    }
+                },
+                "cooldown"   : 12,
+                "cost"       : 0
+            },
+            "3": {
+                "type"       : 1,
+                "name"       : "Kamisato Art: Suiyuu",
+                "description": "Unveils a garden of purity that silences the cacophony within.\\nWhile this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing <color=#80C0FFFF>Hydro DMG</color> and increasing the Normal Attack DMG of characters within.\\n\\n<i>\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"</i>",
+                "icon"       : "Skill_E_Ayato_01",
+                "promote"    : {
+                    "1" : {
+                        "level"      : 1,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.66456, 0.11, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "2" : {
+                        "level"      : 2,
+                        "costItems"  : {"104323": 3, "112044": 6},
+                        "coinCost"   : 12500,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.714402, 0.12, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "3" : {
+                        "level"      : 3,
+                        "costItems"  : {"104324": 2, "112045": 3},
+                        "coinCost"   : 17500,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.764244, 0.13, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "4" : {
+                        "level"      : 4,
+                        "costItems"  : {"104324": 4, "112045": 4},
+                        "coinCost"   : 25000,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.8307, 0.14, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "5" : {
+                        "level"      : 5,
+                        "costItems"  : {"104324": 6, "112045": 6},
+                        "coinCost"   : 30000,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.880542, 0.15, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "6" : {
+                        "level"      : 6,
+                        "costItems"  : {"104324": 9, "112045": 9},
+                        "coinCost"   : 37500,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.930384, 0.16, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "7" : {
+                        "level"      : 7,
+                        "costItems"  : {"104325": 4, "112046": 4, "113032": 1},
+                        "coinCost"   : 120000,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [0.99684, 0.17, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "8" : {
+                        "level"      : 8,
+                        "costItems"  : {"104325": 6, "112046": 6, "113032": 1},
+                        "coinCost"   : 260000,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.063296, 0.18, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "9" : {
+                        "level"      : 9,
+                        "costItems"  : {"104325": 12, "112046": 9, "113032": 2},
+                        "coinCost"   : 450000,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.129752, 0.19, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "10": {
+                        "level"      : 10,
+                        "costItems"  : {"104319": 1, "104325": 16, "112046": 12, "113032": 2},
+                        "coinCost"   : 700000,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.196208, 0.2, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "11": {
+                        "level"      : 11,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.262664, 0.2, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "12": {
+                        "level"      : 12,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.32912, 0.2, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "13": {
+                        "level"      : 13,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.41219, 0.2, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "14": {
+                        "level"      : 14,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.49526, 0.2, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "15": {
+                        "level"      : 15,
+                        "costItems"  : null,
+                        "coinCost"   : null,
+                        "description": [
+                            "Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", 
+                            "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}", "", "", 
+                            "", "", "", "", "", "", "", "", ""
+                        ],
+                        "params"     : [1.57833, 0.2, 18, 20, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    }
+                },
+                "cooldown"   : 20,
+                "cost"       : 80
+            },
+            "4": {
+                "type"       : 2,
+                "name"       : "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+                "description": "<color=#FFD780FF>Kamisato Art: Kyouka</color> has the following properties:\\n·After it is used, Kamisato Ayato will gain 2 Namisen stacks.\\n·When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
+                "icon"       : "UI_Talent_S_Ayato_05"
+            },
+            "5": {
+                "type"       : 2,
+                "name"       : "Kamisato Art: Michiyuku Hagetsu",
+                "description": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second.",
+                "icon"       : "UI_Talent_S_Ayato_06"
+            },
+            "6": {
+                "type"       : 2,
+                "name"       : "Kamisato Art: Daily Cooking",
+                "description": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+                "icon"       : "UI_Talent_S_Ayato_07"
+            }
+        },
+        "constellation": {
+            "0": {
+                "name"       : "Kyouka Fuushi",
+                "description": "<color=#FFD780FF>Shunsuiken</color> DMG is increased by 40% against opponents with 50% HP or less.",
+                "icon"       : "UI_Talent_S_Ayato_01"
+            },
+            "1": {
+                "name"       : "World Source",
+                "description": "<color=#FFD780FF>Namisen</color>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.",
+                "icon"       : "UI_Talent_S_Ayato_02"
+            },
+            "2": {
+                "name"       : "To Admire the Flowers",
+                "description": "Increases the Level of <color=#FFD780FF>Kamisato Art: Kyouka</color> by 3.\\nMaximum upgrade level is 15.",
+                "icon"       : "UI_Talent_U_Ayato_02"
+            },
+            "3": {
+                "name"       : "Endless Flow",
+                "description": "After using <color=#FFD780FF>Kamisato Art: Suiyuu</color>, all nearby party members will have 15% increased Normal Attack SPD for 15s.",
+                "icon"       : "UI_Talent_S_Ayato_03"
+            },
+            "4": {
+                "name"       : "Bansui Ichiro",
+                "description": "Increases the Level of <color=#FFD780FF>Kamisato Art: Suiyuu</color> by 3.\\nMaximum upgrade level is 15.",
+                "icon"       : "UI_Talent_U_Ayato_01"
+            },
+            "5": {
+                "name"       : "Boundless Origin",
+                "description": "After using <color=#FFD780FF>Kamisato Art: Kyouka</color>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\\nBoth these Shunsuiken attacks will not be affected by Namisen.",
+                "icon"       : "UI_Talent_S_Ayato_04"
+            }
+        }
+    }
+}
