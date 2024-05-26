@@ -1,10 +1,12 @@
 import os
 from dataclasses import dataclass
 
+REPLACE_DATA = {" ": "_", "'": "", ",": "", "!": ""}
+
 
 def format_name(name):
     text = name.lower()
-    for old, new in {" ": "_", "'": "", ",": "", "!": ""}:
+    for old, new in REPLACE_DATA.items():
         text = text.replace(old, new)
     return text.strip()
 
