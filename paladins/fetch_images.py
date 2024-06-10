@@ -6,6 +6,7 @@ import asyncio
 
 logger = logging.getLogger(__name__.split('.')[-1])
 
+
 def __replace_all__(text, replacements):
     for old, new in replacements.items():
         text = text.replace(old, new)
