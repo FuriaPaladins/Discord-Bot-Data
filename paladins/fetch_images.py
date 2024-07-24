@@ -4,6 +4,12 @@ import os
 import random
 import asyncio
 
+import arc
+import arez
+
+from src import BotInfo
+from src.modules.utility.discord.embeds import embed
+
 logger = logging.getLogger(__name__.split('.')[-1])
 
 
@@ -15,7 +21,7 @@ def __replace_all__(text, replacements):
 
 def __format_name__(name):
     """Formats the name to be lowercase. Replace ' ' with '_' and ' with ."""
-    return __replace_all__(str(name).lower(), {" ": "_", "'": "", ",": "", "!": ""}).strip()
+    return __replace_all__(str(name).lower().strip(), {" ": "_", "'": "", ",": "", "!": ""}).strip()
 
 
 def __format_map_name__(name):
@@ -229,3 +235,38 @@ class PaladinsImages:
         if os.path.exists(path):
             return path
         return cls.empty_image
+
+
+async def update_avatar_list(
+    bot: arc.GatewayClient, player: arez.PartialPlayer | arez.Player
+):
+    """
+    Check if the players avatar isn't in the list, and if it isn't, notify the bot owner that it's a new avatar
+    Send the avatar id and player name/id to the bot owner, and add it to the file
+    File is in: `src/assets/paladins/avatars/avatars.json`
+    """
+    if isinstance(player, int):
+        return
+
+    if player.avatar_id is None:
+        return
+
+    with open(f"{PaladinsImages.base}avatars/avatars.json", "r") as f:
+        data = json.load(f)
+
+    if str(player.avatar_id) in [i for i in data.keys()]:
+        return
+
+    ## Notify the bot owner that there's a new avatar
+    dms = await bot.rest.create_dm_channel(BotInfo.BOT_OWNER)
+    await dms.send(
+        embed(
+            "New avatar found!",
+            f"Avatar ID: {player.avatar_id}\nPlayer Name: {player.name}\nPlayer ID: {player.id}",
+        )
+    )
+
+    ## Add the avatar to the json data as player.avatar_id: "unknown"
+    data[str(player.avatar_id)] = "unknown"
+    with open(f"{PaladinsImages.base}avatars/avatars.json", "w") as f:
+        json.dump(data, f, indent=4)
