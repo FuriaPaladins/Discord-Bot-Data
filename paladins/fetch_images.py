@@ -2,7 +2,6 @@ import json
 import logging
 import os
 import random
-import asyncio
 
 import arc
 import arez
