@@ -212,7 +212,7 @@ class PaladinsImages:
         return cls._if_exists(f"{cls.base}platforms/{__format_name__(platform)}.png")
 
     @classmethod
-    def rank(cls, rank, centered=True):
+    def rank(cls, rank: str = "Qualifying", centered=True):
         """Returns the rank icon for a rank"""
         return cls._if_exists(
             f"{cls.base}ranks/{'centered' if centered else 'default'}/{__format_name__(rank)}.png"
